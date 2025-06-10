@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartGadget - Your Future Tech</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+
+  <header>
+    <h1>SmartGadget</h1>
+    <p>The Next Generation of Smart Technology</p>
+    <a href="#buy" class="cta-button">Buy Now</a>
+  </header>
+
+  <section class="product-image">
+    <img src="product.jpg" alt="SmartGadget Product Image" />
+  </section>
+
+  <section class="features">
+    <h2>Why Choose SmartGadget?</h2>
+    <div class="feature-box">
+      <h3>Fast & Efficient</h3>
+      <p>Lightning-fast performance with our AI-powered processor.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Long Battery Life</h3>
+      <p>48-hour battery backup for nonstop usage.</p>
+    </div>
+    <div class="feature-box">
+      <h3>Smart AI Features</h3>
+      <p>Voice control, facial recognition, and seamless connectivity.</p>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>What Customers Say</h2>
+    <blockquote>“SmartGadget changed how I work and live. Absolutely worth it!” – Alex</blockquote>
+    <blockquote>“Sleek design, powerful features. Best tech purchase I’ve made.” – Priya</blockquote>
+  </section>
+
+  <section id="buy" class="buy-now">
+    <h2>Ready to Experience the Future?</h2>
+    <p>Pre-order your SmartGadget for just <strong>$299</strong>!</p>
+    <form id="order-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="text" placeholder="Shipping Address" required />
+      <button type="submit" class="cta-button">Submit Order</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SmartGadget. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("order-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      alert("Thank you! Your order has been placed.");
+    });
+  </script>
+
+</body>
+</html>
